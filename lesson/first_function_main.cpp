@@ -1,8 +1,10 @@
-#include <iostream>
+#include <iostream>		//Preprocessor directives
 
-using namespace std;
+using namespace std;		//Header of function
 
-int main(){
-	int a;	
-	return 0;
+int main(){			//Declare of function  
+	cout<<"Helo World";	//Display Hello World
+	cout<<endl;		//end-line 	
+	
+	return 0;		//return value of  function 
 }
