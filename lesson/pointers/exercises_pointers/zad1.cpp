@@ -10,7 +10,12 @@ Wykorzystaj do tego celu funkcję printf() oraz obiekt std::cout
 
 int main(){
     int *a;
+    int b = 5;
+    int *c = &b;
 
+    std::cout << a << "\n";
+    std::cout << &b << "\n";
+    std::cout << *c << "\n";
 
 
     std::cout<<std::endl; return 0;
