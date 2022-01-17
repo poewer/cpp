@@ -13,10 +13,13 @@ int main(){
     int b = 5;
     int *c = &b;
 
-    std::cout << a << "\n";
-    std::cout << &b << "\n";
-    std::cout << *c << "\n";
+    std::cout <<"a: " << a << "\n";
+    std::cout <<"&b: " << &b << "\n";
+    std::cout <<"c: " << *c << "\n";
 
+    printf("Address of a: %p\n", a);
+    printf("Address of c with (void *): %p\n", (void *)c);
+    printf("Address of c without: %p", c);
 
     std::cout<<std::endl; return 0;
 }
